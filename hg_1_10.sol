@@ -36,7 +36,7 @@ contract HappyGraph {
         string memory list_temp;
         string memory temp;
         bool prev=false;
-        current=false;
+        bool current=false;
         uint counter=0;
         for(uint i=0;i<friend_requests[guy].length;i++){
             
